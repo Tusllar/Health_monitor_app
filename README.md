@@ -231,7 +231,7 @@ Navigator.push(
 **Health Monitor Screen** sẽ gọi:
 
 ```
-GET http://{ESP32_IP}/api/health
+GET http://{ESP32_IP}/sensor
 Response: {
   "heart_rate": 72,
   "blood_oxygen": 98,
@@ -240,7 +240,7 @@ Response: {
   "timestamp": "2024-12-04T10:30:00Z"
 }
 
-GET http://{ESP32_IP}/api/motion
+GET http://{ESP32_IP}/alerts
 Response: {
   "accel_x": 0.1,
   "accel_y": 0.2,
@@ -313,14 +313,6 @@ dependencies:
 
 ---
 
-## 📄 License
-
-Dự án này sử dụng:
-- Flutter: BSD 3-Clause License
-- Material Design: Apache 2.0
-- ESP-IDF: Apache 2.0
-
----
 
 ## 📞 Support
 
