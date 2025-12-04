@@ -233,21 +233,35 @@ Navigator.push(
 ```
 GET http://{ESP32_IP}/sensor
 Response: {
-  "heart_rate": 72,
-  "blood_oxygen": 98,
-  "temperature": 36.5,
-  "steps": 1234,
-  "timestamp": "2024-12-04T10:30:00Z"
+  "heart_rate": 75.0,
+  "spo2": 98.5,
+  "valid": true,
+  "last_update": 1234567,
+  "accel": { "x": 0.01, "y": 0.02, "z": 0.98 },
+  "gyro":  { "x": 0.1,  "y": -0.2, "z": 0.0  },
+  "mpu_temp": 36.8,
+  "mpu_valid": true
 }
-
 GET http://{ESP32_IP}/alerts
 Response: {
-  "accel_x": 0.1,
-  "accel_y": 0.2,
-  "accel_z": 9.8,
-  "gyro_x": 0.01,
-  "gyro_y": 0.02,
-  "gyro_z": 0.03
+  "alerts": [
+    {
+      "t": 89284,
+      "msg": "VA ĐẬP - Chấn động mạnh!"
+    },
+    {
+      "t": 100041,
+      "msg": "VA ĐẬP - Chấn động mạnh!"
+    },
+    {
+      "t": 110273,
+      "msg": "ĐANG CHẠY - Hoạt động mạnh"
+    },
+    {
+      "t": 122717,
+      "msg": "VA ĐẬP - Chấn động mạnh!"
+    }
+  ]
 }
 ```
 
