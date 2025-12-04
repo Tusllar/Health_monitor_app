@@ -79,7 +79,7 @@ flutter build web --release
 ## 📱 Cách Sử Dụng
 
 ### Bước 1: Khởi Động ESP32-C3
-1. Upload code từ `health_monitoring_wristband`
+1. Upload code từ [health_monitoring_wristband](https://github.com/Tusllar/Health_monitoring_wristband.git)
 2. Kết nối ESP32-C3 vào WiFi
 3. Ghi nhớ **IP Address** của thiết bị
    - Kiểm tra từ router hoặc serial monitor
