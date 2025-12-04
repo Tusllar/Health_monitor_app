@@ -2,17 +2,6 @@
 
 Ứng dụng Flutter để theo dõi sức khỏe từ thiết bị **ESP32-C3** qua kết nối WiFi.
 
-## 📋 Mục Lục
-- [Tổng Quan](#tổng-quan)
-- [Yêu Cầu Hệ Thống](#yêu-cầu-hệ-thống)
-- [Cài Đặt](#cài-đặt)
-- [Cách Sử Dụng](#cách-sử-dụng)
-- [Kiến Trúc Ứng Dụng](#kiến-trúc-ứng-dụng)
-- [Giao Diện](#giao-diện)
-- [Tính Năng](#tính-năng)
-- [Troubleshooting](#troubleshooting)
-
----
 
 ## 🎯 Tổng Quan
 
